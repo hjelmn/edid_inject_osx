@@ -1,0 +1,4 @@
+This injector is designed to inject a different EDID before the HDMI audio
+device is created. This allows the fake EDID to be used for both audio and
+video. This is an improvement over the built-in EDID override which changes
+the EDID for video only.
