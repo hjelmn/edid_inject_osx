@@ -21,10 +21,35 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>IOKitPersonalities</key>
-	<dict/>
+	<dict>
+		<key>EDIDInject</key>
+		<dict>
+			<key>DisplayProductID</key>
+			<integer>1</integer>
+			<key>DisplayVendorID</key>
+			<integer>7789</integer>
+			<key>EDID</key>
+			<data>AP///////wAebQEAAQEBAQEYAQOAoFp4Cu6Ro1RMmSYPUFShCAAxQEVAYUBxQIGAAQEBAQEBCOgAMPJwWoCwWIoAQIRjAAAeAjqAGHE4LUBYLEUAQIRjAAAeAAAA/QA6Ph6IPAAKICAgICAgAAAA/ABMRyBUVgogICAgICAgAaECA0zxUJAiIAUEAwIBYV1eX2ZiY2QpPQbAFQdQCVcHfAMMADAAuDwgwI4BAgMEAU8A/ggQBhAYECgQOBBn2F3EAXiAA+MFAwHjDwARZiFQsFEAGzBAcDYAQIRjAAAeAR0AclHQHiBuKFUAQIRjAAAeAAAAAAAAAAAAAAAAAAAAgQ==</data>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>IOClass</key>
+			<string>EDIDInject</string>
+			<key>IOProbeScore</key>
+			<integer>9000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleDisplay</string>
+		</dict>
+	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2015 None. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
-	<dict/>
+	<dict>
+		<key>com.apple.kpi.mach</key>
+		<string>10.4.2</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>10.4.2</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>10.4.2</string>
+	</dict>
 </dict>
 </plist>
